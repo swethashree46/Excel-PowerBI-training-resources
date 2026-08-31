@@ -1,0 +1,23 @@
+A1	- Relative Reference
+$A$1 - 	Absolute Reference
+A$1	- Row fixed
+$A1	- Coulmn Fixed
+
+COUNT() = Count the cells which have numbers only 
+COUNTA() = Count any non empty cells (Text + numbers + Date + Time ...)
+COUNTBLANK() = Count all the blank cells
+
+AGGREGATION FUNCTIONS
+sum()
+average()
+min()
+max()
+count()
+counta()
+countblank()
+ 
+DATE FUNCTIONS
+today()
+now()
+date()
+time()
