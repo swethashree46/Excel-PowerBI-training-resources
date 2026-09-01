@@ -7,6 +7,15 @@ COUNT() = Count the cells which have numbers only
 COUNTA() = Count any non empty cells (Text + numbers + Date + Time ...)
 COUNTBLANK() = Count all the blank cells
 
+IF()	-Two CONDITIONS
+IFS() -	MULTIPLE CONDITION
+AND() -	ALL CONDITION MUST BE TRUE
+OR() -	One of THE CONDITION MUST BE TRUE
+NOT() -	REVERSE A LOGICAL RESULT 
+IFERROR() -	To VALIDATE AND RAISE EXCEPTION
+IFNA () - To notify the N/A as preferred values
+
+
 AGGREGATION FUNCTIONS
 sum()
 average()
@@ -16,8 +25,37 @@ count()
 counta()
 countblank()
  
-DATE FUNCTIONS
-today()
-now()
-date()
-time()
+DATE and TIME FUNCTIONS
+TODAY()
+NOW()
+DATE()
+DAY()
+MONTH()
+YEAR()
+WEEKDAY()
+EDATE()
+EOMONTH()
+DATEDIF()
+
+Text Functions
+LEFT()
+RIGHT()
+MID()
+LEN()
+TRIM()
+UPPER()
+LOWER()
+PROPER()
+CONCAT()
+TEXTJOIN()
+FIND()
+SEARCH()
+SUBSTITUTE()
+REPLACE()
+
+IS FUNCTIONS
+ISBLANK()
+ISNUMBER()
+ISTEXT()
+ISERROR()
+ISNA()
