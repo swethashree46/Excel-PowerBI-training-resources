@@ -1,0 +1,94 @@
+Git Commands and Descriptions
+
+1. Command: git --version
+   Description: Checks whether Git is installed and shows its version.
+
+2. Command: git config --global user.name "Your Name"
+   Description: Sets your Git username.
+
+3. Command: git config --global user.email "you@example.com"
+   Description: Sets your Git email address.
+
+4. Command: git init
+   Description: Creates a new local Git repository in the current folder.
+
+5. Command: git clone <repository-url>
+   Description: Downloads an existing remote repository to your computer.
+
+6. Command: git status
+   Description: Shows changed, staged, and untracked files.
+
+7. Command: git add <file-name>
+   Description: Adds one file to the staging area.
+
+8. Command: git add .
+   Description: Adds all changed files to the staging area.
+
+9. Command: git restore --staged <file-name>
+   Description: Removes a file from staging without deleting its changes.
+
+10. Command: git commit -m "message"
+    Description: Saves staged changes locally with a message.
+
+11. Command: git log
+    Description: Shows commit history.
+
+12. Command: git log --oneline
+    Description: Shows short commit history.
+
+13. Command: git diff
+    Description: Shows changes that are not yet staged.
+
+14. Command: git diff --staged
+    Description: Shows staged changes before committing.
+
+15. Command: git branch
+    Description: Lists local branches.
+
+16. Command: git branch <branch-name>
+    Description: Creates a new branch.
+
+17. Command: git switch <branch-name>
+    Description: Switches to another branch.
+
+18. Command: git switch -c <branch-name>
+    Description: Creates and switches to a new branch.
+
+19. Command: git merge <branch-name>
+    Description: Merges another branch into the current branch.
+
+20. Command: git branch -d <branch-name>
+    Description: Deletes a merged local branch.
+
+21. Command: git remote -v
+    Description: Displays connected remote repositories.
+
+22. Command: git remote add origin <repository-url>
+    Description: Connects the local repository to GitHub.
+
+23. Command: git push -u origin main
+    Description: Uploads the local main branch to GitHub for the first time.
+
+24. Command: git push
+    Description: Uploads committed changes to the remote repository.
+
+25. Command: git pull
+    Description: Downloads and merges the latest remote changes.
+
+26. Command: git fetch
+    Description: Downloads remote changes without merging them.
+
+27. Command: git reset --soft HEAD~1
+    Description: Undoes the latest commit but keeps changes staged.
+
+28. Command: git restore <file-name>
+    Description: Discards unstaged changes in a file. Use carefully.
+
+29. Command: git stash
+    Description: Temporarily saves unfinished changes.
+
+30. Command: git stash pop
+    Description: Restores the most recently stashed changes.
+
+31. Command: git tag <tag-name>
+    Description: Creates a version tag, such as v1.0.0.
