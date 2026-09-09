@@ -1,0 +1,16 @@
+Aggregation Functions
+1. Find the total Salary of all employees.
+2. Find the average Sales amount of all employees.
+3. Find the minimum and maximum Target values.
+Logical Functions
+1. Display “Target Achieved” if Sales is greater than or equal to Target; otherwise display “Target Not Achieved.”
+2. Display “Bonus Eligible” if an employee is Active and has achieved the Sales Target.
+3. Display “High Salary” if Salary is above 50,000; otherwise display “Standard Salary.”
+Text Functions
+1. Extract the first name from each Employee Name.
+2. Convert all Department names to uppercase.
+3. Create a new text value by joining Emp ID, Employee Name, and Location using | as a separator.
+IS Functions
+1. Check whether every Email value is text.
+2. Check whether every Salary value is a number.
+3. Check whether any selected blank cell is blank.
