@@ -1,0 +1,31 @@
+Create an Employee Dataset with Data Validation
+
+## Goal
+
+Create an **Employee Details** table in Excel. The table must contain at least **10 employees**.
+
+## Step 1: Add These Columns
+
+Create these columns in your table:
+
+1. Employee ID
+2. Employee Name
+3. Age
+4. Department
+5. Location
+6. Joining Date
+7. Employment Type
+8. Salary
+
+## Step 2: Add Data Validation
+
+Use Excel's **Data Validation** feature to control what users can enter.
+
+
+ Age ----- Allow whole numbers from **18 to 60** only. 
+ Department ---- Add a drop-down list of departments. 
+ Location ----- Add a drop-down list of locations. 
+ Joining Date --- Allow dates from **1 January 2026 to 31 December 2026** only. 
+ Employment Type --- Add a drop-down list, such as Full-time, Part-time, or Contract. 
+ Salary --- Allow numbers of **₹20,000 or more** only. 
+
