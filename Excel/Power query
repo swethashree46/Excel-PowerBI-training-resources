@@ -1,0 +1,19 @@
+Checking the datatype and change if required - DATE
+
+Rename the column name(header) - QUANTITY --> UNIT SOLD
+
+FILTER , SORTING If needed
+
+Add column - (Column from example) - DATE(source) --> MONTH
+Add column - (Column from example) - DATE(source) --> QUARTER
+
+Merge Queries (SELECT THE COMMON COLUMN) - LEFT OUTER JOIN
+    TABLE 1 = SALES DATA
+    TABLE 2 = PRODUCT
+
+Append queries (SELECT THE TABLE 2)
+
+
+Add columns - Created new Custom Column (SALESAMOUNT) --CUSTOM FORMULA
+
+Add columns - Created new Condition Column (Category) - iF CONDITION
