@@ -1,0 +1,86 @@
+Power BI Views
+
+1. Report View
+
+Definition:
+Report View is the main working area where you design and build visual reports in Power BI.
+
+What you can do:
+- Create charts and graphs
+- Add tables and matrices
+- Add cards and KPI visuals
+- Insert slicers and filters
+- Arrange and format visuals
+- Create multiple pages in a report
+
+Example:
+If you have sales data, you can create:
+- Total Sales as a Card
+- Sales by Region as a Column Chart
+- Monthly Sales as a Line Chart
+- Sales by Product as a Bar Chart
+
+Simple understanding:
+Report View is where data is presented visually for analysis and reporting.
+
+2. Data View
+
+Definition:
+Data View is used to inspect the dataset that has been loaded into Power BI and to understand how the data is structured.
+
+What you can do:
+- View tables and columns
+- Check individual records
+- Understand the data structure
+- Review data types
+- Create calculated columns when needed
+- Identify missing or incorrect values
+
+Example:
+
+Customer ID    Customer Name    Region    Sales
+C001           Arun             South     25,000
+C002           Priya            North     32,000
+
+Simple understanding:
+Data View is where you review and examine the raw data before building reports.
+
+3. Model View
+
+Definition:
+Model View shows all tables in the dataset and the relationships between them.
+
+What you can do:
+- View different tables
+- Create and manage relationships
+- Understand how tables are connected
+- Identify primary and foreign key columns
+- Manage the overall data model
+
+Example:
+Customers and Orders tables can be connected using Customer ID.
+
+Customers Table:
+- Customer ID
+- Customer Name
+- Region
+
+Orders Table:
+- Order ID
+- Customer ID
+- Sales
+
+Simple understanding:
+Model View is where you connect different data tables so Power BI can analyze them together.
+
+Quick Summary
+
+View            Main Purpose
+Report View     Present and visualize data
+Data View       Review and inspect raw data
+Model View      Connect tables and define relationships
+
+Simple flow:
+Data → Model → Report
+
+This means you first load and understand the data, then connect the tables in the model, and finally create the report to present insights clearly.

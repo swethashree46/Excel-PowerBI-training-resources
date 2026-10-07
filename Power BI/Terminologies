@@ -1,0 +1,133 @@
+1. Dataset / Semantic Model
+
+A dataset, also called a semantic model, is the collection of data, tables, relationships, calculations, and other information used to create a Power BI report.
+
+2. Table
+
+A table is a structured collection of data organized in rows and columns.
+
+Example: Customers, Products, Sales
+
+3. Column / Field
+
+A column, also known as a field, represents a specific attribute of the data.
+
+Example: Customer Name, Region, Sales Amount
+
+4. Row / Record
+
+A row or record is a single entry in a table that contains related information about one item.
+
+Example: One customer’s complete information.
+
+5. Measure
+
+A measure is a calculation created using DAX that returns a result based on the current filter context.
+
+Example:
+Total Sales = SUM(Sales[Amount])
+
+6. Calculated Column
+
+A calculated column is a new column created using a DAX formula and evaluated row by row.
+
+Example:
+Total = Quantity × Price
+
+7. DAX
+
+DAX stands for Data Analysis Expressions. It is the formula language used in Power BI to create measures, calculated columns, and other calculations.
+
+8. Visual
+
+A visual is a graphical representation of data.
+
+Examples:
+- Bar Chart
+- Column Chart
+- Line Chart
+- Pie Chart
+- Card
+- Table
+
+9. Slicer
+
+A slicer is an interactive visual used to filter other visuals on a report page.
+
+Example: Selecting South will display only the data for the South region.
+
+10. Filter
+
+A filter is a condition used to restrict the data displayed in a visual, page, or report.
+
+11. Dashboard
+
+A dashboard is a visual summary of important information and KPIs.
+
+Note: In Power BI Service, a dashboard is different from a report.
+
+12. Report
+
+A report is a collection of interactive pages containing multiple visuals used for data analysis and storytelling.
+
+13. Report Page
+
+A report page is an individual page within a Power BI report where visuals are arranged and displayed.
+
+Example:
+- Page 1: Sales Overview
+- Page 2: Product Analysis
+- Page 3: Customer Analysis
+
+14. Relationship
+
+A relationship is a connection between two or more tables based on a common column.
+
+Example:
+Customers[Customer ID] ↔ Orders[Customer ID]
+
+15. Cardinality
+
+Cardinality defines how records in one table relate to records in another table.
+
+Common types:
+- One-to-One
+- One-to-Many
+- Many-to-One
+- Many-to-Many
+
+16. Power Query
+
+Power Query is the data preparation and transformation tool in Power BI.
+
+It is used for:
+- Cleaning data
+- Removing duplicates
+- Changing data types
+- Merging tables
+- Appending tables
+- Transforming columns
+
+17. Power BI Desktop
+
+Power BI Desktop is the application used to connect to data, transform it, model it, visualize it, and build reports.
+
+18. Power BI Service
+
+Power BI Service is the online cloud platform where Power BI content can be published, shared, and accessed.
+
+19. Refresh
+
+Refresh is the process of updating the Power BI dataset with the latest available source data.
+
+20. KPI
+
+KPI stands for Key Performance Indicator. It is a metric used to measure performance against a defined target.
+
+Example:
+- Target Sales: ₹10M
+- Actual Sales: ₹8M
+
+Power BI Workflow
+
+Connect → Transform → Model → Visualize → Publish → Refresh
