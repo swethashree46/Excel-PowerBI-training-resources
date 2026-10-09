@@ -1,0 +1,65 @@
+1. Power BI Desktop
+
+Power BI Desktop is the main development environment where reports are created. It is the application used to connect to data, clean it, build the data model, create visuals, and design reports.
+
+Example: A sales analyst imports an Excel file containing sales data and starts building a report in Power BI Desktop.
+
+2. Power Query
+
+Power Query is the data transformation tool used to clean and prepare data before it is loaded into the model.
+
+Example: If the source data contains duplicate entries, incorrect spellings, or missing values, Power Query is used to remove or correct them.
+
+3. Data Model / Semantic Model
+
+After the data is cleaned, tables are connected through relationships to create a data model. This allows multiple tables to work together for analysis.
+
+Example: A Sales table can be linked to a Product table using Product ID so the report can show product-wise sales performance.
+
+4. DAX
+
+DAX (Data Analysis Expressions) is the formula language used in Power BI for calculations and logic.
+
+Example: A measure such as Total Profit = Total Sales - Cost can be created using DAX.
+
+5. Power BI Report
+
+A report is a collection of visuals such as charts, graphs, and tables created in Power BI Desktop.
+
+Example: A report may include a bar chart showing branch-wise sales and a pie chart showing product contribution.
+
+6. Power BI Service
+
+Power BI Service is the cloud-based platform where reports are published and shared online.
+
+Example: After creating a report in Power BI Desktop, the file is published to the Power BI Service so others can access it from anywhere.
+
+7. Power BI Dashboard
+
+A dashboard is a single-page summary view that highlights the most important visuals from one or more reports.
+
+Example: A manager may view total sales, top-selling product, and regional performance on a single dashboard page.
+
+8. Power BI Mobile
+
+Power BI Mobile allows reports and dashboards to be accessed on mobile devices such as smartphones and tablets.
+
+Example: A business user can view the latest sales dashboard while traveling.
+
+9. Power BI Gateway
+
+A gateway connects on-premises data sources to the Power BI Service so data can be refreshed securely in the cloud.
+
+Example: If sales data is stored in an office Excel file or local SQL server, a gateway enables scheduled refresh without manual updates.
+
+10. Power BI Report Server
+
+Power BI Report Server is used by organizations that want to keep their reports and data inside their own internal environment for security and compliance reasons.
+
+Example: A financial institution may use Report Server to keep reports within its secure internal server instead of publishing them to the cloud.
+
+Full Power BI Workflow
+
+Excel Data → Power Query (cleaning) → Data Model (relationships) + DAX (calculations) → Report (Desktop) → Publish to Service → Dashboard → View in Mobile
+
+Gateway keeps the data updated automatically.
